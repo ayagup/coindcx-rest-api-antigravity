@@ -1,0 +1,17 @@
+{
+    "leverage": 10,
+    "position_size": {
+        "type": "MARGIN",
+        "value": 20
+    },
+    "risk": {
+        "sl_candle_multiplier": 2.0,
+        "tp_fixed_points": [
+            300,
+            500,
+            800,
+            1000
+        ],
+        "move_sl_to_entry_when_tp_hit": 1
+    }
+}
